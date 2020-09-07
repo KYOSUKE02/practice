@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
 class Mainmodel extends ChangeNotifier{
-  String kboyText = 'KBOY';
+  String aboyText = 'KBOY';
 
   void changeKboyText(){
-    kboyText = 'キョウスケ';
+    aboyText = 'キョウスケ';
     notifyListeners();
   }
 }
